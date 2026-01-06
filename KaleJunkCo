@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalé Junk Co. | Junk Removal in McDonough, GA</title>
+  <meta name="description" content="Kalé Junk Co. offers fast, affordable junk removal in McDonough, GA and Henry County. Call or text 470-776-6532 for a free estimate." />
+
+  <!-- Google Font: clean, readable, slightly unique -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --dark: #0f172a;
+      --green: #22c55e;
+      --light-green: #f0fdf4;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Nunito', sans-serif;
+      background: var(--light-green);
+      color: #0f172a;
+      line-height: 1.65;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(rgba(15,23,42,.55), rgba(15,23,42,.55)),
+        url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      color: white;
+      padding: 4.5rem 1.5rem;
+      text-align: center;
+    }
+
+    /* Logo */
+    .logo {
+      font-size: 3rem;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      margin-bottom: .5rem;
+    }
+
+    .logo span { color: var(--green); }
+
+    nav {
+      margin: 1.5rem 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 .85rem;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    .cta {
+      display: inline-block;
+      background: var(--green);
+      color: #022c22;
+      padding: .9rem 1.6rem;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 800;
+      margin-top: 1.5rem;
+    }
+
+    section {
+      padding: 4rem 1.5rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: var(--white);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 12px 30px rgba(0,0,0,.08);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card div {
+      padding: 1.75rem;
+    }
+
+    .card h3 { margin-top: 0; }
+
+    footer {
+      background: #022c22;
+      color: white;
+      text-align: center;
+      padding: 2.75rem 1rem;
+    }
+
+    footer a {
+      color: #bbf7d0;
+      text-decoration: none;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Kalé <span>Junk</span> Co.</div>
+  <p>Fast • Fair • Gone</p>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#how">How It Works</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <a class="cta" href="tel:4707766532">Call or Text 470-776-6532</a>
+</header>
+
+<section>
+  <h2>Professional Junk Removal in McDonough, GA</h2>
+  <p>
+    Kalé Junk Co. provides fast, affordable junk removal across McDonough and Henry County. From single-item pickups to full cleanouts, we handle the heavy lifting and leave your space clean.
+  </p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?auto=format&fit=crop&w=900&q=80" alt="Trailer loaded with junk">
+      <div>
+        <h3>Residential Junk Removal</h3>
+        <p>Furniture, appliances, garages, basements, attics, yard debris, and full home cleanouts.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1581091012184-5c7b5a79b1b2?auto=format&fit=crop&w=900&q=80" alt="Truck hauling debris">
+      <div>
+        <h3>Commercial Junk Removal</h3>
+        <p>Office cleanouts, property management, storage units, and renovation debris.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1597008641621-07b60c39a7cf?auto=format&fit=crop&w=900&q=80" alt="Dump trailer full of junk">
+      <div>
+        <h3>Heavy & Specialty Items</h3>
+        <p>Mattresses, couches, scrap metal, hot tubs (disassembled), and bulk loads.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <h2>How It Works</h2>
+  <div class="grid">
+    <div class="card"><div><strong>1.</strong> Call or text 470-776-6532</div></div>
+    <div class="card"><div><strong>2.</strong> Get a free, upfront estimate</div></div>
+    <div class="card"><div><strong>3.</strong> We haul it away — fast & clean</div></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Get a Free Estimate</h2>
+  <p><strong>Phone:</strong> <a href="tel:4707766532">470-776-6532</a></p>
+  <p><strong>Email:</strong> <a href="mailto:kalejunkco@gmail.com">kalejunkco@gmail.com</a></p>
+  <p><strong>Service Area:</strong> McDonough, GA • Henry County • South Metro Atlanta</p>
+  <p><strong>Hours:</strong> Mon–Sat 8am–7pm | Sunday by appointment</p>
+  <a class="cta" href="tel:4707766532">Call Now</a>
+</section>
+
+<footer>
+  <p>© Kalé Junk Co. | McDonough, GA</p>
+  <p>Fast • Reliable • Affordable Junk Removal</p>
+</footer>
+
+</body>
+</html>
